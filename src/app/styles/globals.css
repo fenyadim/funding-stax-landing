@@ -12,10 +12,12 @@
     :root {
         --background: 0 0% 100%;
         --foreground: 0 0% 3.9%;
+
         --card: 0 0% 100%;
         --card-foreground: 0 0% 3.9%;
+
         --popover: 0 0% 100%;
-        --popover-foreground: 0 0% 3.9%;
+        --popover-foreground: 0 0% 9%;
 
         --primary: 218 93% 44%;
         --primary-foreground: 0 0% 100%;
@@ -29,9 +31,17 @@
         --accent: 87 100% 70%;
         --accent-foreground: 0 0% 9%;
 
+        --icon: 150 14% 95%;
+        --icon-foreground: 220 30% 21%;
+        --icon-hover: 0 0% 91%;
+
+        --header: 195 22% 96%;
+
         --border: 218 93% 44%;
 
         --input: 222 6% 66%;
+
+        --select: 0 0% 91%;
 
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
@@ -43,16 +53,19 @@
         --chart-5: 27 87% 67%;
         --radius: 0.5rem;
     }
+
     [data-theme="dark"] {
         --background: 231 7% 11%; /* #101014 */
         --foreground: 0 0% 100%;
+
         --card: 0 0% 39%;
         --card-foreground: 0 0% 100%;
-        --popover: 0 0% 39%;
+
+        --popover: 240 7% 11%;
         --popover-foreground: 0 0% 100%;
 
-        --primary: 220 30% 21%; /* #C9FF66 */
-        --primary-foreground: 87 100% 70%;
+        --primary: 87 100% 70%; /* #C9FF66 */
+        --primary-foreground: 0 0% 9%;
 
         --secondary: 220 30% 21%;
         --secondary-foreground: 0 0% 100%;
@@ -63,9 +76,15 @@
         --accent: 87 100% 70%;
         --accent-foreground: 0 0% 9%;
 
+        --icon: 221 20% 16%;
+        --icon-foreground: 0 0% 100%;
+        --icon-hover: 218 93% 44%;
+
         --border: 87 100% 70%;
 
         --input: 222 6% 66%;
+
+        --select: 221 31% 16%;
 
         --destructive: 0 62.8% 30.6%;
         --destructive-foreground: 0 0% 98%;
@@ -82,7 +101,14 @@
     * {
         @apply border-border;
     }
+
     body {
-        @apply bg-background text-foreground text-lg font-normal;
+        @apply bg-background text-foreground text-lg font-normal h-screen;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1500px] m-auto;
     }
 }

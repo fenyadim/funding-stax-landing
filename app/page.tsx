@@ -1,20 +1,13 @@
-'use client'
-
-import { Button } from "@/shared/ui";
-import { useTheme } from "next-themes";
+import { Button } from '@/shared/ui';
 
 export default function Home() {
-  const { setTheme } = useTheme()
-
-  return (
-    <div className="p-20">
-      <Button onClick={() => setTheme('light')}>Light</Button>
-      <Button onClick={() => setTheme('dark')}>Dark</Button>
-      <h2>Home</h2>
-      <Button>Default</Button>
-      <Button variant='accent'>Accent</Button>
-      <Button variant='outline'>Outline</Button>
-      <Button variant='lighting'>Lighting</Button>
-    </div>
-  );
+	return (
+		<div className='p-20'>
+			<h2>Home</h2>
+			<Button>Default</Button>
+			<Button variant='accent'>Accent</Button>
+			<Button variant='secondary'>Secondary</Button>
+			<Button variant='outline'>Outline</Button>
+		</div>
+	);
 }
