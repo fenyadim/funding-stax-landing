@@ -18,9 +18,8 @@ export const ThemeSwitcher = () => {
 		setTheme(resolvedTheme === 'light' ? 'dark' : 'light');
 	}, [resolvedTheme, setTheme]);
 
-	if (!mounted) {
-		return null;
-	}
+	// TODO: Добавить Loader
+	if (!mounted) return null;
 
 	return (
 		<Button variant='icon' size='icon' onClick={handleToggle}>
