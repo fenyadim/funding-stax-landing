@@ -1,50 +1,31 @@
-import { useTheme } from 'next-themes';
-import { useCallback, useEffect, useState } from 'react';
-
-import { cn } from '@/shared/lib/utils';
 import {
-	Select,
-	SelectContent,
-	SelectItem,
-	SelectTrigger,
-	SelectValue,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
 } from '@/shared/ui';
+import Image from 'next/image';
+import { langsData } from '../model/langs';
 
 export const LangSwitcher = () => {
-	const [mounted, setMounted] = useState(false);
-	const { setTheme, themes, resolvedTheme } = useTheme();
-
-	useEffect(() => {
-		setMounted(true);
-	}, []);
-
-	const handleChange = useCallback(
-		(value: string) => {
-			setTheme(value);
-		},
-		[setTheme],
-	);
-
-	if (!mounted) {
-		return null;
-	}
-
-	return (
-		<Select onValueChange={handleChange}>
-			<SelectTrigger className='w-min flex-1 capitalize'>
-				<SelectValue placeholder={resolvedTheme} />
-			</SelectTrigger>
-			<SelectContent
-				className={cn({
-					'shadow-none border border-foreground/10': resolvedTheme === 'dark',
-				})}
-			>
-				{themes.map((theme) => (
-					<SelectItem className='capitalize' key={theme} value={theme}>
-						{theme}
-					</SelectItem>
-				))}
-			</SelectContent>
-		</Select>
-	);
+  return (
+    <Select>
+      <SelectTrigger className='max-w-[120px] flex-1 capitalize'>
+        <SelectValue placeholder='EN' />
+      </SelectTrigger>
+      <SelectContent
+        className='dark:shadow-none dark:border dark:border-foreground/10'
+      >
+        {langsData.map(({ key, iconSrc, value }) => (
+          <SelectItem className='capitalize' key={key} value={key}>
+            <div className='flex gap-3 items-center justify-start'>
+              <Image src={iconSrc} alt={value} width={28} height={28} />
+              <span>{value}</span>
+            </div>
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
+  );
 };
