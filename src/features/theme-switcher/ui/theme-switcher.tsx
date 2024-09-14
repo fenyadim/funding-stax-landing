@@ -2,24 +2,25 @@
 
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback } from 'react';
 
-import { Button } from '@/shared/ui';
+import { useMountingStatus } from '@/shared/hooks/useMountingStatus';
+import { Button, Skeleton } from '@/shared/ui';
 
 export const ThemeSwitcher = () => {
-	const [mounted, setMounted] = useState(false);
 	const { setTheme, resolvedTheme } = useTheme();
-
-	useEffect(() => {
-		setMounted(true);
-	}, []);
+	const { isMounted } = useMountingStatus();
 
 	const handleToggle = useCallback(() => {
 		setTheme(resolvedTheme === 'light' ? 'dark' : 'light');
 	}, [resolvedTheme, setTheme]);
 
-	// TODO: Добавить Loader
-	if (!mounted) return null;
+	if (!isMounted)
+		return (
+			<div>
+				<Skeleton className='w-[42px] h-[42px] rounded-xl' />
+			</div>
+		);
 
 	return (
 		<Button variant='icon' size='icon' onClick={handleToggle}>

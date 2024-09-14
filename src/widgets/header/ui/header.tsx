@@ -1,18 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Suspense } from 'react';
 
 import { LangSwitcher } from '@/features/lang-switcher';
 import { ThemeSwitcher } from '@/features/theme-switcher';
 import { Button } from '@/shared/ui';
-import { BurgerMenu } from '@/widgets/header/ui/burger-menu';
 
+import { BurgerMenu } from './burger-menu';
 import { Navigation } from './navigation';
 
 export const Header = () => {
 	return (
 		<header className=''>
 			<div className='flex justify-between items-center gap-5 py-5 container'>
-				<Link href='/'>
+				<Link href='/' className='flex-1'>
 					<Image
 						src='/logo-light.svg'
 						alt='Funding stax'
@@ -32,7 +33,9 @@ export const Header = () => {
 				</Link>
 				<div className='flex gap-4 md:gap-6 lg:gap-8'>
 					<Navigation className='hidden xl:block' orientation='horizontal' />
-					<LangSwitcher />
+					<Suspense fallback={<p>Loading...</p>}>
+						<LangSwitcher />
+					</Suspense>
 					<ThemeSwitcher />
 					<div className='gap-4 hidden md:flex'>
 						<Button asChild>

@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 import { cn } from '@/shared/lib/utils';
@@ -10,44 +11,7 @@ import {
 	NavigationMenuTrigger,
 	navigationMenuTriggerStyle,
 } from '@/shared/ui';
-
-interface INavigationItem {
-	name: string;
-	link?: string;
-	subItems?: INavigationItem[];
-}
-
-export const navigationItem: INavigationItem[] = [
-	{
-		name: 'Правила торговли',
-		link: '/',
-	},
-	{
-		name: 'Топ трейдеры',
-		link: '/',
-	},
-	{
-		name: 'Связаться с нами',
-		link: '/',
-	},
-	{
-		name: 'Больше',
-		subItems: [
-			{
-				name: 'Блок',
-				link: '/',
-			},
-			{
-				name: 'Affiliate Portal',
-				link: '/',
-			},
-			{
-				name: 'Вопрос-ответ',
-				link: '/',
-			},
-		],
-	},
-];
+import { navigationItem } from '@/widgets/header/model/navItem';
 
 interface INavigation {
 	orientation: 'vertical' | 'horizontal';
@@ -55,6 +19,8 @@ interface INavigation {
 }
 
 export const Navigation = ({ orientation, className }: INavigation) => {
+	const t = useTranslations('navigation');
+
 	return (
 		<NavigationMenu orientation={orientation} className={className}>
 			<NavigationMenuList>
@@ -63,7 +29,7 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 						{!subItems ? (
 							<Link href={link as string} legacyBehavior passHref>
 								<NavigationMenuLink className={navigationMenuTriggerStyle()}>
-									{name}
+									{t(name)}
 								</NavigationMenuLink>
 							</Link>
 						) : (
@@ -73,7 +39,7 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 										flex: orientation === 'horizontal',
 									})}
 								>
-									{name}
+									{t(name)}
 								</NavigationMenuTrigger>
 								<NavigationMenuContent>
 									{subItems.map(({ name: subItemName, link }) => (
@@ -86,7 +52,7 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 											<NavigationMenuLink
 												className={navigationMenuTriggerStyle()}
 											>
-												{subItemName}
+												{t(subItemName)}
 											</NavigationMenuLink>
 										</Link>
 									))}
@@ -106,7 +72,7 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 											<NavigationMenuLink
 												className={navigationMenuTriggerStyle()}
 											>
-												{subItemName}
+												{t(subItemName)}
 											</NavigationMenuLink>
 										</Link>
 									))}

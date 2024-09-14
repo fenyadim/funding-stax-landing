@@ -1,0 +1,15 @@
+{
+  "home": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "navigation": {
+    "Правила торговли": "Trading rules",
+    "Топ трейдеры": "Top traders",
+    "Связаться с нами": "Contact us",
+    "Больше": "More",
+    "Блог": "Blog",
+    "Affiliate Portal": "Affiliate Portal",
+    "Вопрос-ответ": "FAQ"
+  }
+}
