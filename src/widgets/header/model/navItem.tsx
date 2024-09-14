@@ -1,7 +1,10 @@
+import { Crown } from 'lucide-react';
+
 interface INavigationItem {
 	name: string;
 	link?: string;
 	subItems?: INavigationItem[];
+	Icon?: JSX.Element;
 }
 
 export const navigationItem: INavigationItem[] = [
@@ -12,6 +15,7 @@ export const navigationItem: INavigationItem[] = [
 	{
 		name: 'Топ трейдеры',
 		link: '/',
+		Icon: <Crown className='text-amber-500' />,
 	},
 	{
 		name: 'Связаться с нами',

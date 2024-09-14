@@ -24,12 +24,15 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 	return (
 		<NavigationMenu orientation={orientation} className={className}>
 			<NavigationMenuList>
-				{navigationItem.map(({ name, link, subItems }) => (
+				{navigationItem.map(({ name, link, subItems, Icon }) => (
 					<NavigationMenuItem key={name}>
 						{!subItems ? (
 							<Link href={link as string} legacyBehavior passHref>
-								<NavigationMenuLink className={navigationMenuTriggerStyle()}>
+								<NavigationMenuLink
+									className={cn(navigationMenuTriggerStyle(), 'gap-2')}
+								>
 									{t(name)}
+									{Icon && Icon}
 								</NavigationMenuLink>
 							</Link>
 						) : (
