@@ -42,6 +42,10 @@ const config: Config = {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))',
 				},
+				gradient: {
+					from: 'hsl(var(--gradient-from))',
+					to: 'hsl(var(--gradient-to))',
+				},
 				border: 'hsl(var(--border))',
 				select: 'hsl(var(--select))',
 				input: 'hsl(var(--input))',
@@ -56,6 +60,7 @@ const config: Config = {
 			},
 			boxShadow: {
 				light: '0px 2px 44px 0px rgba(0, 0, 0, 0)',
+				solid: '6px 6px 0px 0px rgba(0, 0, 0, 0)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

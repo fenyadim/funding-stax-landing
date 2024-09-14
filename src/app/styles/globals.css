@@ -31,6 +31,9 @@
 		--accent: 87 100% 70%;
 		--accent-foreground: 0 0% 9%;
 
+		--gradient-from: 218 93% 44%;
+		--gradient-to: 218 93% 23%;
+
 		--icon: 150 14% 95%;
 		--icon-foreground: 220 30% 21%;
 		--icon-hover: 0 0% 91%;
@@ -75,6 +78,9 @@
 
 		--accent: 87 100% 70%;
 		--accent-foreground: 0 0% 9%;
+
+		--gradient-from: 87 100% 70%;
+		--gradient-to: 173 78% 49%;
 
 		--icon: 221 20% 16%;
 		--icon-foreground: 0 0% 100%;
