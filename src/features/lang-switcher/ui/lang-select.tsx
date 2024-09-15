@@ -2,8 +2,9 @@
 
 import { ReactNode, useTransition } from 'react';
 
-import { Locale, usePathname, useRouter } from '@/i18n/routing';
+import { Locale } from '@/i18n/config';
 import { useMountingStatus } from '@/shared/hooks/useMountingStatus';
+import { setUserLocale } from '@/shared/service/locale';
 import {
 	Select,
 	SelectContent,
@@ -18,14 +19,13 @@ interface ILangSelect {
 }
 
 export const LangSelect = ({ children, defaultValue }: ILangSelect) => {
-	const router = useRouter();
 	const [, startTransition] = useTransition();
-	const pathname = usePathname();
 	const { isMounted } = useMountingStatus();
 
-	const onSelectChange = (value: Locale) => {
+	const onSelectChange = (value: string) => {
+		const locale = value as Locale;
 		startTransition(() => {
-			router.replace(`${pathname}`, { locale: value });
+			setUserLocale(locale);
 		});
 	};
 

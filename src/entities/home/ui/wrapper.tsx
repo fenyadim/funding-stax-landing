@@ -32,7 +32,7 @@ export const Wrapper = () => {
 				alt='Payouts icon'
 				width={102}
 				height={77}
-				className='absolute -left-24 top-0 z-10'
+				className='absolute -left-28 top-0'
 			/>
 		</div>
 	);

@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 import { Wrapper } from '@/entities/home';
 import { SocialButtons } from '@/entities/social-buttons';
-import { Link } from '@/i18n/routing';
 import { Button } from '@/shared/ui';
 
 export const HomePage = () => {
