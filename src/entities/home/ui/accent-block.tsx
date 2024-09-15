@@ -1,5 +1,7 @@
+'use client';
+
 import { cn } from '@/shared/lib/utils';
-import { Card } from '@/shared/ui';
+import { Card, Odometer } from '@/shared/ui';
 
 interface IAccentBlock {
 	className?: string;
@@ -9,14 +11,20 @@ export const AccentBlock = ({ className }: IAccentBlock) => {
 	return (
 		<Card
 			className={cn(
-				'flex flex-col gap-3 bg-secondary w-fit p-9 rounded-3xl shadow-solid !shadow-accent',
+				'flex flex-col items-center gap-2 bg-accent w-fit p-3 rounded-3xl',
 				className,
 			)}
 		>
-			<h3 className='text-3xl font-medium text-secondary-foreground'>
-				<span className='text-accent'>+ $</span> 8 665.69
-			</h3>
-			<p className='text-secondary-foreground/30'>Выплата успешно зачислена!</p>
+			<div className='flex gap-2'>
+				<span className='text-4xl text-secondary font-bold'>$</span>
+				<Odometer
+					value={2350}
+					size='2.25rem'
+					fontFamily='var(--font-raleway)'
+					color='hsl(var(--secondary))'
+				/>
+			</div>
+			<p className='text-base text-secondary font-medium'>Средняя выплата</p>
 		</Card>
 	);
 };

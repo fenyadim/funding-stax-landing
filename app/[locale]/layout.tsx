@@ -8,6 +8,7 @@ import { Header } from '@/widgets/header';
 const raleway = Raleway({
 	subsets: ['latin'],
 	display: 'swap',
+	variable: '--font-raleway',
 });
 
 export const metadata: Metadata = {
@@ -24,7 +25,7 @@ export default async function RootLayout({
 }>) {
 	return (
 		<html lang={locale} suppressHydrationWarning>
-			<body className={raleway.className}>
+			<body className={`${raleway.variable}`}>
 				<RootProvider>
 					<Header />
 					<main>{children}</main>

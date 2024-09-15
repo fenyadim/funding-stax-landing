@@ -4,7 +4,13 @@ import { mean } from 'd3-array';
 import { Area, AreaChart, CartesianGrid, ReferenceDot, XAxis } from 'recharts';
 
 import { cn } from '@/shared/lib/utils';
-import { Card, CardContent, ChartConfig, ChartContainer } from '@/shared/ui';
+import {
+	Card,
+	CardContent,
+	ChartConfig,
+	ChartContainer,
+	Odometer,
+} from '@/shared/ui';
 
 interface IInitialChartData {
 	month: string;
@@ -43,9 +49,16 @@ export const Chart = ({ className }: IChart) => {
 		>
 			<div className='absolute pt-6 pl-6 top-0 left-0 bg-secondary z-10'>
 				<p className='text-secondary-foreground/30'>Баланс счета</p>
-				<h3 className='text-4xl text-secondary-foreground font-semibold'>
-					<span className='text-accent text-2xl'>$</span> 100 665.69
-				</h3>
+				<div className='flex gap-2'>
+					<span className='text-accent text-2xl'>$</span>
+					<Odometer
+						value={100665}
+						size='2.4rem'
+						fontFamily='var(--font-raleway)'
+						color='hsl(var(--secondary-foreground))'
+						className='font-semibold'
+					/>
+				</div>
 			</div>
 			<CardContent className='h-full p-0'>
 				<ChartContainer className='h-full w-full' config={chartConfig}>

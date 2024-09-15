@@ -1,5 +1,3 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
 
 import { Wrapper } from '@/entities/home';
@@ -12,7 +10,7 @@ export const HomePage = () => {
 
 	return (
 		<section className='container'>
-			<div className='bg-[#F4F7F8] dark:bg-transparent p-8 rounded-3xl grid grid-cols-2 gap-6'>
+			<div className='bg-[#F4F7F8] dark:bg-transparent p-8 rounded-3xl grid grid-cols-[2fr_1fr] gap-6'>
 				<div>
 					<div className='mb-14'>
 						<h1 className='text-6xl leading-[87px] font-bold mb-6'>
@@ -21,7 +19,7 @@ export const HomePage = () => {
 								{t('начинается здесь')}
 							</span>
 						</h1>
-						<p className='text-xl leading-7'>
+						<p className='text-xl leading-7 w-10/12'>
 							{t(
 								'Мы в Funding Stax Prop Firm предлагаем вам уникальную возможность торговать на финансовых рынках, используя наш капитал',
 							)}
@@ -34,9 +32,7 @@ export const HomePage = () => {
 						<SocialButtons />
 					</div>
 				</div>
-				<div className='flex-auto justify-self-end'>
-					<Wrapper />
-				</div>
+				<Wrapper />
 			</div>
 		</section>
 	);

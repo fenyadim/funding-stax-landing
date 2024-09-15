@@ -58,9 +58,12 @@ const config: Config = {
 					'5': 'hsl(var(--chart-5))',
 				},
 			},
+			fontFamily: {
+				raleway: ['var(--font-raleway)'],
+			},
 			boxShadow: {
 				light: '0px 2px 44px 0px rgba(0, 0, 0, 0)',
-				solid: '6px 6px 0px 0px rgba(0, 0, 0, 0)',
+				solid: '6px -6px 0px 0px rgba(0, 0, 0, 0)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

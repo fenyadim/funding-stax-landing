@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { LangSwitcher } from '@/features/lang-switcher';
 import { ThemeSwitcher } from '@/features/theme-switcher';
 import { Button } from '@/shared/ui';
+import { ToggleImage } from '@/shared/ui/toggle-image';
 
 import { BurgerMenu } from './burger-menu';
 import { Navigation } from './navigation';
@@ -13,21 +13,13 @@ export const Header = () => {
 		<header className=''>
 			<div className='flex justify-between items-center gap-5 py-5 container'>
 				<Link href='/' className='flex-1'>
-					<Image
-						src='/logo-light.svg'
+					<ToggleImage
+						lightImgSrc='/logo-light.svg'
+						darkImgSrc='/logo-dark.svg'
 						alt='Funding stax'
 						width={170}
 						height={71}
 						priority={true}
-						className='block dark:hidden'
-					/>
-					<Image
-						src='/logo-dark.svg'
-						alt='Funding stax'
-						width={170}
-						height={71}
-						priority={true}
-						className='hidden dark:block'
 					/>
 				</Link>
 				<div className='flex gap-4 md:gap-6 lg:gap-8'>

@@ -5,3 +5,5 @@ export * from './sheet';
 export * from './skeleton';
 export * from './card';
 export * from './chart';
+export * from './odometer';
+export * from './toggle-image';
