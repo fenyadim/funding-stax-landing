@@ -19,7 +19,7 @@ interface ILangSelect {
 
 export const LangSelect = ({ children, defaultValue }: ILangSelect) => {
 	const router = useRouter();
-	const [isPending, startTransition] = useTransition();
+	const [, startTransition] = useTransition();
 	const pathname = usePathname();
 	const { isMounted } = useMountingStatus();
 
