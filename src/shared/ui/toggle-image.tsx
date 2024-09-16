@@ -43,7 +43,10 @@ export const ToggleImage = ({
 				<Image
 					src={darkMobileImgSrc}
 					alt={alt}
-					className={cn('hidden sm:hidden dark:block', className)}
+					className={cn(
+						'hidden sm:hidden sm:dark:hidden dark:block',
+						className,
+					)}
 					{...otherProps}
 				/>
 			</>
