@@ -29,7 +29,7 @@ export default async function RootLayout({
 			<body className={`${raleway.variable}`}>
 				<RootProvider>
 					<Header />
-					<main>{children}</main>
+					<main className='flex flex-col gap-24'>{children}</main>
 				</RootProvider>
 			</body>
 		</html>

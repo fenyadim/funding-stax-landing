@@ -11,7 +11,7 @@ import { Navigation } from './navigation';
 export const Header = () => {
 	return (
 		<header className=''>
-			<div className='flex justify-between items-center gap-5 py-5 container'>
+			<div className='flex justify-between items-center py-5 container'>
 				<Link href='/' className='flex-1'>
 					<ToggleImage
 						lightImgSrc='/logo-light.svg'
@@ -22,7 +22,7 @@ export const Header = () => {
 						priority={true}
 					/>
 				</Link>
-				<div className='flex gap-4 md:gap-6 lg:gap-8'>
+				<div className='flex gap-4 md:gap-5 lg:gap-6'>
 					<Navigation className='hidden xl:block' orientation='horizontal' />
 					<LangSwitcher />
 					<ThemeSwitcher />

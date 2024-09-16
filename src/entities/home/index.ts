@@ -1,1 +1,2 @@
-export { HomeButtons } from './ui/home-buttons';
+export { MainBanner } from './ui/sections/main-banner';
+export { ChooseUs } from './ui/sections/choose-us';
