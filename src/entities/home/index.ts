@@ -1,1 +1,1 @@
-export { Wrapper } from './ui/wrapper';
+export { HomeButtons } from './ui/home-buttons';
