@@ -1,13 +1,14 @@
 import type { Metadata } from 'next';
-import { Raleway } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 
 import { RootProvider } from '@/app/providers/root-provider';
 import '@/app/styles/globals.css';
 import { Header } from '@/widgets/header';
 
-const raleway = Raleway({
+const raleway = Montserrat({
 	subsets: ['latin'],
 	display: 'swap',
+	weight: ['400', '500', '600', '700'],
 	variable: '--font-raleway',
 });
 

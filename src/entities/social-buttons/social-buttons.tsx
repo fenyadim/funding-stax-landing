@@ -13,12 +13,12 @@ const socialItems: ISocialItems[] = [
 		alt: 'Telegram',
 	},
 	{
-		iconSrc: '/socials/inst.svg',
-		alt: 'Instagram',
-	},
-	{
 		iconSrc: '/socials/x.svg',
 		alt: 'X',
+	},
+	{
+		iconSrc: '/socials/inst.svg',
+		alt: 'Instagram',
 	},
 ];
 
