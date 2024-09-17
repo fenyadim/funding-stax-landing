@@ -8,8 +8,8 @@ interface IChooseItems extends IChooseData {
 
 export const ChooseItems = ({ title, description, imgSrc }: IChooseItems) => {
 	return (
-		<div className='dark:bg-gradient-to-r dark:from-gradient-from dark:to-gradient-to dark:rounded-3xl dark:p-[1px]'>
-			<div className='h-full w-full relative bg-accent pb-40 min-[520px]:pb-10 py-10 px-8 rounded-3xl min-h-[280px] shadow-block shadow-secondary/15 dark:bg-zinc-800 dark:shadow-none'>
+		<div className='dark:bg-gradient-to-r dark:from-gradient-from/40 dark:to-gradient-to/40 dark:rounded-3xl dark:p-[1px]'>
+			<div className='h-full w-full relative overflow-hidden bg-accent pb-40 min-[520px]:pb-10 py-10 px-8 rounded-3xl min-h-[280px] shadow-block shadow-secondary/15 dark:bg-zinc-800 dark:shadow-none'>
 				<h3 className='text-lg min-[520px]:text-2xl font-semibold mb-5'>
 					{title}
 				</h3>

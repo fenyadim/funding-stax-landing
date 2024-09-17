@@ -12,7 +12,13 @@
     "Технологическая платформа": "Technical platform",
     "Мы предлагаем передовую торговую платформу с высокоскоростным доступом к рынкам и мощными аналитическими инструментами, что позволяет трейдерам эффективно реализовывать свои стратегии": "We offer an efficient trading platform with high-speed access to markets and powerful analytical instruments, which allows traders to effectively realize their strategies",
     "Финансовая торговля": "Financial trading",
-    "Возможность торговать различными финансовыми инструментами, включая криптовалюты, форекс, индексы, товары и акции": "Ability to trade various financial instruments, including cryptocurrencies, forex, indices, products and stocks"
+    "Возможность торговать различными финансовыми инструментами, включая криптовалюты, форекс, индексы, товары и акции": "Ability to trade various financial instruments, including cryptocurrencies, forex, indices, products and stocks",
+    "start-now": {
+      "title": "Instead of risking your money, you undergo an experiment, prove your skills ",
+      "accent": "and get access to significant amounts",
+      "description": "With capital in $100,000, earn $1000 per day more than in $5000. This allows you to concentrate on trading, very accurately and do not worry about financial matters. We provide you with freedom to grow and develop",
+      "accent-button": "Start now"
+    }
   },
   "navigation": {
     "Правила торговли": "Trading rules",

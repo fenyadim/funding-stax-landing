@@ -46,6 +46,11 @@ const config: Config = {
 					from: 'hsl(var(--gradient-from))',
 					to: 'hsl(var(--gradient-to))',
 				},
+				bannerGradient: {
+					from: 'hsl(var(--banner-gradient-from))',
+					via: 'hsl(var(--banner-gradient-via))',
+					to: 'hsl(var(--banner-gradient-to))',
+				},
 				border: 'hsl(var(--border))',
 				select: 'hsl(var(--select))',
 				input: 'hsl(var(--input))',

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import { cn } from '@/shared/lib/utils';
 import { Button } from '@/shared/ui';
 
 interface ISocialItems {
@@ -22,15 +23,15 @@ const socialItems: ISocialItems[] = [
 	},
 ];
 
-export const SocialButtons = () => {
+export const SocialButtons = ({ className }: { className?: string }) => {
 	return (
-		<div className='flex gap-4'>
+		<div className={cn('flex gap-4', className)}>
 			{socialItems.map(({ alt, iconSrc }) => (
 				<Button
 					key={alt}
 					variant='icon'
 					size='icon'
-					className='border-none bg-zinc-800 hover:bg-zinc-800/90 p-3'
+					className='border-none bg-secondary hover:bg-secondary/90 p-3'
 				>
 					<Image src={iconSrc} alt={alt} width={25} height={25} />
 				</Button>

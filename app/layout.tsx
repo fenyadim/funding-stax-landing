@@ -3,12 +3,13 @@ import { Montserrat } from 'next/font/google';
 
 import { RootProvider } from '@/app/providers/root-provider';
 import '@/app/styles/globals.css';
+import { Footer } from '@/widgets/footer';
 import { Header } from '@/widgets/header';
 
 const raleway = Montserrat({
 	subsets: ['latin'],
 	display: 'swap',
-	weight: ['400', '500', '600', '700'],
+	weight: ['300', '400', '500', '600', '700'],
 	variable: '--font-raleway',
 });
 
@@ -29,7 +30,10 @@ export default async function RootLayout({
 			<body className={`${raleway.variable}`}>
 				<RootProvider>
 					<Header />
-					<main className='flex flex-col gap-24'>{children}</main>
+					<main className='flex flex-col gap-16 sm:gap-24 mb-16 sm:mb-24'>
+						{children}
+					</main>
+					<Footer />
 				</RootProvider>
 			</body>
 		</html>
