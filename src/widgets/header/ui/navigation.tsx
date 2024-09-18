@@ -16,9 +16,14 @@ import { navigationItem } from '@/widgets/header/model/navItem';
 interface INavigation {
 	orientation: 'vertical' | 'horizontal';
 	className?: string;
+	classNameItems?: string;
 }
 
-export const Navigation = ({ orientation, className }: INavigation) => {
+export const Navigation = ({
+	orientation,
+	className,
+	classNameItems,
+}: INavigation) => {
 	const t = useTranslations('navigation');
 
 	return (
@@ -29,7 +34,11 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 						{!subItems ? (
 							<Link href={link as string} legacyBehavior passHref>
 								<NavigationMenuLink
-									className={cn(navigationMenuTriggerStyle(), 'gap-2')}
+									className={cn(
+										navigationMenuTriggerStyle(),
+										classNameItems,
+										'gap-2',
+									)}
 								>
 									{t(name)}
 									{Icon && Icon}
@@ -53,7 +62,10 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 											passHref
 										>
 											<NavigationMenuLink
-												className={navigationMenuTriggerStyle()}
+												className={cn(
+													navigationMenuTriggerStyle(),
+													classNameItems,
+												)}
 											>
 												{t(subItemName)}
 											</NavigationMenuLink>
@@ -73,7 +85,10 @@ export const Navigation = ({ orientation, className }: INavigation) => {
 											passHref
 										>
 											<NavigationMenuLink
-												className={navigationMenuTriggerStyle()}
+												className={cn(
+													navigationMenuTriggerStyle(),
+													classNameItems,
+												)}
 											>
 												{t(subItemName)}
 											</NavigationMenuLink>
