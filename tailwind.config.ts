@@ -51,6 +51,7 @@ const config: Config = {
 					via: 'hsl(var(--banner-gradient-via))',
 					to: 'hsl(var(--banner-gradient-to))',
 				},
+				star: 'hsl(var(--star))',
 				border: 'hsl(var(--border))',
 				select: 'hsl(var(--select))',
 				input: 'hsl(var(--input))',

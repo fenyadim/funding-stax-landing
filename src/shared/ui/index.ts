@@ -7,3 +7,5 @@ export * from './card';
 export * from './chart';
 export * from './odometer';
 export * from './toggle-image';
+export * from './block';
+export * from './carousel';

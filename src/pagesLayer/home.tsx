@@ -1,5 +1,5 @@
 import { Banner } from '@/entities/banner';
-import { ChooseUs, MainBanner, StartNow } from '@/entities/home';
+import { ChooseUs, CommentsBlock, MainBanner, StartNow } from '@/entities/home';
 
 export const HomePage = () => {
 	return (
@@ -8,6 +8,7 @@ export const HomePage = () => {
 			<ChooseUs />
 			<StartNow />
 			<Banner />
+			<CommentsBlock />
 		</>
 	);
 };

@@ -42,6 +42,8 @@
         --icon-foreground: 220 30% 21%;
         --icon-hover: 0 0% 91%;
 
+        --star: 218 93% 44%;
+
         --header: 195 22% 96%;
 
         --border: 218 93% 44%;
@@ -93,6 +95,8 @@
         --icon: 221 20% 16%;
         --icon-foreground: 0 0% 100%;
         --icon-hover: 218 93% 44%;
+
+        --star: 45 100% 60%;
 
         --border: 87 100% 70%;
 
