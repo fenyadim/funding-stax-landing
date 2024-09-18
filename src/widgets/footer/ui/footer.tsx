@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -6,6 +7,8 @@ import { SocialButtons } from '@/entities/social-buttons';
 import { Navigation } from '@/widgets/header/ui/navigation';
 
 export const Footer = () => {
+	const t = useTranslations('footer');
+
 	return (
 		<footer className='bg-zinc-800 pt-10'>
 			<div className='container flex flex-col gap-5 pb-6'>
@@ -47,13 +50,13 @@ export const Footer = () => {
 								className='text-secondary-foreground/80 hover:text-accent text-base font-normal'
 								href='#'
 							>
-								Политика конфиденциальности
+								{t('politics')}
 							</Link>
 						</div>
 					</div>
 					<div>
 						<h3 className='px-4 pb-2 text-secondary-foreground'>
-							Полезные ссылки
+							{t('links')}
 						</h3>
 						<Navigation
 							classNameItems='text-secondary-foreground/80 hover:text-accent'

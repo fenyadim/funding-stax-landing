@@ -25,6 +25,14 @@
       "description": "In the company of Funding Stax we value every review. Our clients are our greatest honor! We strive to provide high level of service and tools for successful trading."
     }
   },
+  "banner": {
+    "title": "Присоединяйтесь к команде опытных трейдеров!",
+    "description": "Не упустите шанс вырасти как трейдер! Присоединяйтесь к нашей команде и начните свой путь к успеху уже сегодня!"
+  },
+  "footer": {
+    "links": "Useful links",
+    "politics": "Privacy policy"
+  },
   "navigation": {
     "Правила торговли": "Trading rules",
     "Топ трейдеры": "Top traders",

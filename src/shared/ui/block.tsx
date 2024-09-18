@@ -27,7 +27,7 @@ export const Block = ({
 						{title}
 						<span className='text-primary'>{accentTitle}</span>
 					</h2>
-					<p className='w-2/3'>{description}</p>
+					<p className='w-full md:w-2/3'>{description}</p>
 				</div>
 				<div className={className}>{isWrappedContainer && children}</div>
 			</div>
