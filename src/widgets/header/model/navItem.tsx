@@ -10,7 +10,7 @@ interface INavigationItem {
 export const navigationItem: INavigationItem[] = [
 	{
 		name: 'Правила торговли',
-		link: '/',
+		link: '/trading-rules',
 	},
 	{
 		name: 'Топ трейдеры',

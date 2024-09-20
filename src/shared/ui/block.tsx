@@ -27,11 +27,11 @@ export const Block = ({
 						{title}
 						<span className='text-primary'>{accentTitle}</span>
 					</h2>
-					<p className='w-full md:w-2/3'>{description}</p>
+					{description && <p className='w-full md:w-2/3'>{description}</p>}
 				</div>
-				<div className={className}>{isWrappedContainer && children}</div>
+				{isWrappedContainer && <div className={className}>{children}</div>}
 			</div>
-			<div className={className}>{!isWrappedContainer && children}</div>
+			{!isWrappedContainer && <div className={className}>{children}</div>}
 		</section>
 	);
 };

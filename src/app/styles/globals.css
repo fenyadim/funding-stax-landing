@@ -42,6 +42,8 @@
         --icon-foreground: 220 30% 21%;
         --icon-hover: 0 0% 91%;
 
+        --accordion-rules: 150 14% 95%;
+
         --star: 218 93% 44%;
 
         --header: 195 22% 96%;
@@ -95,6 +97,8 @@
         --icon: 221 20% 16%;
         --icon-foreground: 0 0% 100%;
         --icon-hover: 218 93% 44%;
+
+        --accordion-rules: 220 30% 21%;
 
         --star: 45 100% 60%;
 

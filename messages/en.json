@@ -1,4 +1,5 @@
 {
+  "dashboard": "Dashboard",
   "home": {
     "Ваш путь к финансовой свободе": "Your path to financial freedom ",
     "начинается здесь": "starts here",
@@ -19,11 +20,20 @@
       "description": "With capital in $100,000, earn $1000 per day more than in $5000. This allows you to concentrate on trading, very accurately and do not worry about financial matters. We provide you with freedom to grow and develop",
       "accent-button": "Start now"
     },
+    "plan-block": {
+      "title": "Choose ",
+      "accent": "the best plan",
+      "description": "Participate in our experiments and get up to $200,000 in demo trading accounts for trading, by which you can earn real profit!"
+    },
     "comments": {
       "title": "What our",
       "accent": " clients say",
       "description": "In the company of Funding Stax we value every review. Our clients are our greatest honor! We strive to provide high level of service and tools for successful trading."
     }
+  },
+  "trading-rules": {
+    "title": "Trading ",
+    "accent": "rules"
   },
   "banner": {
     "title": "Присоединяйтесь к команде опытных трейдеров!",

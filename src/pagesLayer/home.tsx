@@ -8,6 +8,8 @@ export const HomePage = () => {
 			<ChooseUs />
 			<StartNow />
 			<Banner />
+			{/* TODO: Доделать PlanBlock */}
+			{/*<PlanBlock />*/}
 			<CommentsBlock />
 		</>
 	);

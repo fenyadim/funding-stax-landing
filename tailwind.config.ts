@@ -33,6 +33,7 @@ const config: Config = {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))',
 				},
+				accordion: 'hsl(var(--accordion-rules))',
 				icon: {
 					DEFAULT: 'hsl(var(--icon))',
 					foreground: 'hsl(var(--icon-foreground))',
@@ -82,14 +83,20 @@ const config: Config = {
 			animation: {
 				'move-in': 'move 2s linear',
 				'fade-in': 'fade-in 0.5s linear forwards',
+				'accordion-down': 'accordion-down 0.2s ease-out',
+				'accordion-up': 'accordion-up 0.2s ease-out',
 			},
 			transitionDelay: {
 				'2000': '2000ms',
 			},
 			keyframes: {
 				move: {
-					'0%': { width: '0' },
-					'100%': { width: '100%' },
+					'0%': {
+						width: '0',
+					},
+					'100%': {
+						width: '100%',
+					},
 				},
 				'fade-in': {
 					'0%': {
@@ -99,6 +106,22 @@ const config: Config = {
 					'100%': {
 						opacity: '1',
 						transform: 'scale(1)',
+					},
+				},
+				'accordion-down': {
+					from: {
+						height: '0',
+					},
+					to: {
+						height: 'var(--radix-accordion-content-height)',
+					},
+				},
+				'accordion-up': {
+					from: {
+						height: 'var(--radix-accordion-content-height)',
+					},
+					to: {
+						height: '0',
 					},
 				},
 			},
