@@ -10,8 +10,8 @@ const config: Config = {
 				foreground: 'hsl(var(--foreground))',
 				header: 'hsl(var(--header))',
 				card: {
-					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))',
+					DEFAULT: 'hsl(var(--blog))',
+					foreground: 'hsl(var(--blog-foreground))',
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',

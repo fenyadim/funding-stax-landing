@@ -105,6 +105,20 @@
       }
     }
   },
+  "blog": {
+    "title": "Read ",
+    "accent": "our blog",
+    "description": "Read our blog with Funding Stax and open yourself the secrets of successful trading and fresh trends in the financial world. Learn more about the latest trends in the world of finance!",
+    "read-more": "Read more",
+    "what-card": {
+      "title": "Funding Stax: Your partner in the world of professional trading.",
+      "description": "Funding Stax: your partner in the world of professional trading. This is where Funding Stax comes in..."
+    },
+    "why-card": {
+      "title": "Why trader should join Funding Stax",
+      "description": "In today's world of financial markets, traders are constantly looking for new ways to increase their opportunities...\n"
+    }
+  },
   "banner": {
     "title": "Join the team of experienced traders!",
     "description": "Don't miss the chance to grow as a trader! Join our team and start your path to success today!"
