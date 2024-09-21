@@ -1,41 +1,25 @@
 import { Crown } from 'lucide-react';
 
-interface INavigationItem {
-	name: string;
-	link?: string;
+import { AppRoutes, IRouteProps, routeConfig } from '@/shared/config/route';
+
+interface INavigationItem extends Partial<IRouteProps> {
 	subItems?: INavigationItem[];
 	Icon?: JSX.Element;
 }
 
 export const navigationItem: INavigationItem[] = [
+	routeConfig[AppRoutes.TRADING_RULES],
 	{
-		name: 'Правила торговли',
-		link: '/trading-rules',
-	},
-	{
-		name: 'Топ трейдеры',
-		link: '/',
+		...routeConfig[AppRoutes.TOP_TRADERS],
 		Icon: <Crown className='text-amber-500' />,
 	},
-	{
-		name: 'Связаться с нами',
-		link: '/',
-	},
+	routeConfig[AppRoutes.CONTACT_US],
 	{
 		name: 'Больше',
 		subItems: [
-			{
-				name: 'Блог',
-				link: '/',
-			},
-			{
-				name: 'Affiliate Portal',
-				link: '/',
-			},
-			{
-				name: 'Вопрос-ответ',
-				link: '/',
-			},
+			routeConfig[AppRoutes.AFFILIATE_PORTAL],
+			routeConfig[AppRoutes.BLOG],
+			routeConfig[AppRoutes.FAQ],
 		],
 	},
 ];

@@ -53,7 +53,7 @@ export const Navigation = ({
 								>
 									{t(name)}
 								</NavigationMenuTrigger>
-								<NavigationMenuContent>
+								<NavigationMenuContent className='flex flex-col'>
 									{subItems.map(({ name: subItemName, link }) => (
 										<Link
 											key={subItemName}
