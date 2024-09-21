@@ -44,70 +44,70 @@
         "answer": "Prop trading is a form of trading in which traders use a company's capital to make trades in the financial markets."
       },
       "q-2": {
-        "question": "Как работает ваша prop компания?",
-        "answer": "Мы предоставляем финансирование успешным трейдерам после прохождения ими специального челленджа (испытания)."
+        "question": "How does your prop company work?",
+        "answer": "We provide funding to successful traders after they pass a special challenge."
       },
       "q-3": {
-        "question": "Что такое challenge?",
-        "answer": "Это тестовый период, во время которого трейдер демонстрирует свои навыки и соблюдение правил риск-менеджмента на демо-счете."
+        "question": "What is a challenge?",
+        "answer": "This is a test period, during which the trader demonstrates his skills and compliance with the rules of risk management on a demo account."
       },
       "q-4": {
-        "question": "Что происходит после успешного прохождения челленджа?",
-        "answer": "После успешного прохождения челленджа трейдер получает доступ к реальному счету с нашим капиталом."
+        "question": "What happens after successfully completing the challenge?",
+        "answer": "After successfully completing the Challenge, the trader gets access to a real account with our capital."
       },
       "q-5": {
-        "question": "Какой размер финансирования предоставляется?",
-        "answer": "Funding Stax предоставляет финансирование от 5000$ до 200.000$."
+        "question": "How much funding is provided?",
+        "answer": "Funding Stax provides funding from $5,000 to $200,000."
       },
       "q-6": {
-        "question": "Как распределяется прибыль?",
-        "answer": "Прибыль распределяется от выбранного Вами челлендаж в пропорциях 85/15 и 90/10. Большую часть прибыли забирает себе трейдер."
+        "question": "How are profits distributed?",
+        "answer": "Profit is distributed from the selected chelendage in proportions 85/15 and 90/10. Most of the profit is taken by the trader."
       },
       "q-7": {
-        "question": "Какие рынки доступны для торговли?",
-        "answer": "Форекс, акции, металлы и криптовалюты."
+        "question": "What markets are available for trading?",
+        "answer": "Forex, stocks, metals and cryptocurrencies."
       },
       "q-8": {
-        "question": "Какие торговые платформы вы используете?",
-        "answer": "Мы используем современную и технологичную платформу Trade Locker, которая доступна на desktop и mobile версии."
+        "question": "What trading platforms do you use?",
+        "answer": "We use the modern and technologically advanced Trade Locker platform, which is available on desktop and mobile versions."
       },
       "q-9": {
-        "question": "Как осуществляется мониторинг торговли?",
-        "answer": "Мы постоянно отслеживаем деятельность трейдеров для обеспечения соблюдения правил риск-менеджмента и условий сотрудничества."
+        "question": "How is the trade monitored?",
+        "answer": "We constantly monitor traders' activities to ensure compliance with risk management rules and terms of cooperation."
       },
       "q-10": {
-        "question": "Что происходит в случае нарушения правил?",
-        "answer": "В случае нарушения правил система автоматически закроет вашу учетную запись в Trade Locker."
+        "question": "What happens in the event of a rule violation?",
+        "answer": "If you violate the rules, the system will automatically close your Trade Locker account."
       },
       "q-11": {
-        "question": "Какие требования к трейдерам?",
-        "answer": "Funding Stax в поиске стабильных и уверенных трейдеров, которые умеют правильно работать с РМ и ММ."
+        "question": "What are the requirements for traders?",
+        "answer": "Funding Stax is in search of stable and confident traders who know how to work properly with RM and MM."
       },
       "q-12": {
-        "question": "Как подать заявку на участие?",
-        "answer": "Зарегистрируйтесь в нашем дашборде и выберите подходящий для Вас челлендж."
+        "question": "How do I apply to participate?",
+        "answer": "Sign up for our dashboard and choose the shuttle challenge that's right for you."
       },
       "q-13": {
-        "question": "Есть ли плата за участие в челлендже?",
-        "answer": "Все челленджи платные, после успешного прохождения челленджа мы возвращаем Вам потраченную стоимость за участие, но на второй выплате."
+        "question": "Is there a fee to participate in the challenge?",
+        "answer": "All the Challenges are paid, after successful completion of the Challenges we refund you the cost of participation, but on the second payment."
       },
       "q-14": {
-        "question": "Как осуществляются выплаты трейдерам?",
-        "answer": "Выплаты осуществляются в любой удобный для Вас день. Выплата должна быть больше 1% от всего торгового баланса. Сроки выплат до 48 часов."
+        "question": "How are payments to traders made?",
+        "answer": "Payouts are made on any convenient day for you. The payment should be more than 1% of the total trading balance. Payment terms up to 48 hours."
       },
       "q-15": {
-        "question": "Есть ли у вас служба поддержки?",
-        "answer": "Да, support@fundingstax.com."
+        "question": "Do you have a customer service department?",
+        "answer": "Yes, support@fundingstax.com."
       },
       "q-16": {
-        "question": "Где можно узнать больше о вашей компании?",
-        "answer": "Ссылки укажем позже."
+        "question": "Where can I learn more about your company?",
+        "answer": "We'll point out the references later."
       }
     }
   },
   "banner": {
-    "title": "Присоединяйтесь к команде опытных трейдеров!",
-    "description": "Не упустите шанс вырасти как трейдер! Присоединяйтесь к нашей команде и начните свой путь к успеху уже сегодня!"
+    "title": "Join the team of experienced traders!",
+    "description": "Don't miss the chance to grow as a trader! Join our team and start your path to success today!"
   },
   "footer": {
     "links": "Useful links",
