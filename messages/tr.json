@@ -1,126 +1,126 @@
 {
-  "dashboard": "Dashboard",
+  "dashboard": "Gösterge Tablosu",
   "home": {
-    "Ваш путь к финансовой свободе": "Your path to financial freedom ",
-    "начинается здесь": "starts here",
-    "Мы в Funding Stax Prop Firm предлагаем вам уникальную возможность торговать на финансовых рынках, используя наш капитал": "We at Funding Stax Prop Firm offer you a unique opportunity to trade the financial markets using our capital",
-    "Почему": "Why ",
-    "выбирают нас?": "choose us?",
-    "Доступ к крупному капиталу": "Access to large capital",
-    "Мы предоставляем трейдерам возможность торговать с большими суммами, что позволяет им реализовывать более масштабные стратегии и увеличивать потенциал прибыли": "We provide the ability to trade with large amounts, which allows them to realize more scalable strategies and increase the potential for profit",
-    "Прозрачная система вознаграждений": "Transparent system of rewards",
-    "У нас  справедливая и прозрачная  структура разделения прибыли, что позволяет трейдерам точно знать, на что они могут рассчитывать": "We have a transparent and fair structure of profit distribution, which allows traders to know precisely what they can expect",
-    "Технологическая платформа": "Technical platform",
-    "Мы предлагаем передовую торговую платформу с высокоскоростным доступом к рынкам и мощными аналитическими инструментами, что позволяет трейдерам эффективно реализовывать свои стратегии": "We offer an efficient trading platform with high-speed access to markets and powerful analytical instruments, which allows traders to effectively realize their strategies",
-    "Финансовая торговля": "Financial trading",
-    "Возможность торговать различными финансовыми инструментами, включая криптовалюты, форекс, индексы, товары и акции": "Ability to trade various financial instruments, including cryptocurrencies, forex, indices, products and stocks",
+    "Ваш путь к финансовой свободе": "Finansal özgürlüğe giden yolunuz ",
+    "начинается здесь": "burada başlıyor",
+    "Мы в Funding Stax Prop Firm предлагаем вам уникальную возможность торговать на финансовых рынках, используя наш капитал": "Funding Stax Prop Firm olarak size sermayemizi kullanarak finansal piyasalarda işlem yapmanız için eşsiz bir fırsat sunuyoruz",
+    "Почему": "Neden ",
+    "выбирают нас?": "Bizi mi seçtin?",
+    "Доступ к крупному капиталу": "Büyük sermayeye erişim",
+    "Мы предоставляем трейдерам возможность торговать с большими суммами, что позволяет им реализовывать более масштабные стратегии и увеличивать потенциал прибыли": "Büyük hacimlerde işlem yapma olanağı sağlayarak daha ölçeklenebilir stratejiler yürütmelerine ve kâr potansiyelini artırmalarına olanak tanıyoruz",
+    "Прозрачная система вознаграждений": "Şeffaf ödüllendirme sistemi",
+    "У нас  справедливая и прозрачная  структура разделения прибыли, что позволяет трейдерам точно знать, на что они могут рассчитывать": "Yatırımcıların tam olarak ne bekleyebileceklerini bilmelerini sağlayan şeffaf ve adil bir kar dağıtım yapısına sahibiz",
+    "Технологическая платформа": "Teknik platform",
+    "Мы предлагаем передовую торговую платформу с высокоскоростным доступом к рынкам и мощными аналитическими инструментами, что позволяет трейдерам эффективно реализовывать свои стратегии": "Yatırımcıların stratejilerini etkili bir şekilde gerçekleştirmelerine olanak tanıyan, piyasalara yüksek hızlı erişim ve güçlü analitik araçlara sahip verimli bir ticaret platformu sunuyoruz",
+    "Финансовая торговля": "Finansal ticaret",
+    "Возможность торговать различными финансовыми инструментами, включая криптовалюты, форекс, индексы, товары и акции": "Kripto para birimleri, forex, endeksler, ürünler ve hisse senetleri dahil olmak üzere çeşitli finansal araçlarla işlem yapabilme",
     "start-now": {
-      "title": "Instead of risking your money, you undergo an experiment, prove your skills ",
-      "accent": "and get access to significant amounts",
-      "description": "With capital in $100,000, earn $1000 per day more than in $5000. This allows you to concentrate on trading, very accurately and do not worry about financial matters. We provide you with freedom to grow and develop",
-      "accent-button": "Start now"
+      "title": "Paranızı riske atmak yerine, bir deneyden geçersiniz, becerilerinizi kanıtlarsınız ",
+      "accent": "ve önemli miktarlara erişim elde edin",
+      "description": "100.000 $ sermaye ile, günde 1000 $ 'dan 5000 $' dan daha fazla kazanın. Bu, çok doğru bir şekilde ticarete konsantre olmanızı ve finansal konular hakkında endişelenmemenizi sağlar. Size büyüme ve gelişme özgürlüğü sağlıyoruz",
+      "accent-button": "Şimdi başlayın"
     },
     "plan-block": {
-      "title": "Choose ",
-      "accent": "the best plan",
-      "description": "Participate in our experiments and get up to $200,000 in demo trading accounts for trading, by which you can earn real profit!"
+      "title": "Seçin ",
+      "accent": "en iyi plan",
+      "description": "Deneylerimize katılın ve gerçek kar elde edebileceğiniz ticaret için demo ticaret hesaplarında 200.000 $ 'a kadar kazanın!"
     },
     "comments": {
-      "title": "What our",
-      "accent": " clients say",
-      "description": "In the company of Funding Stax we value every review. Our clients are our greatest honor! We strive to provide high level of service and tools for successful trading."
+      "title": "Ne bizim",
+      "accent": " müşteriler diyor ki",
+      "description": "Funding Stax olarak her incelemeye değer veriyoruz. Müşterilerimiz bizim en büyük onurumuzdur! Başarılı ticaret için yüksek düzeyde hizmet ve araçlar sağlamaya çalışıyoruz."
     }
   },
   "trading-rules": {
-    "title": "Trading ",
-    "accent": "rules"
+    "title": "Ticaret ",
+    "accent": "kurallar"
   },
   "faq": {
     "title": "",
     "accent": "FAQ",
     "questions": {
       "q-1": {
-        "question": "What is prop trading?",
-        "answer": "Prop trading is a form of trading in which traders use a company's capital to make trades in the financial markets."
+        "question": "Destek ticareti nedir?",
+        "answer": "Prop ticareti, yatırımcıların finansal piyasalarda işlem yapmak için bir şirketin sermayesini kullandığı bir ticaret şeklidir."
       },
       "q-2": {
-        "question": "Как работает ваша prop компания?",
-        "answer": "Мы предоставляем финансирование успешным трейдерам после прохождения ими специального челленджа (испытания)."
+        "question": "Prop şirketiniz nasıl çalışıyor?",
+        "answer": "Başarılı tüccarlara özel bir mücadeleyi geçtikten sonra finansman sağlıyoruz."
       },
       "q-3": {
-        "question": "Что такое challenge?",
-        "answer": "Это тестовый период, во время которого трейдер демонстрирует свои навыки и соблюдение правил риск-менеджмента на демо-счете."
+        "question": "Zorluk nedir?",
+        "answer": "Bu, yatırımcının bir demo hesabında becerilerini ve risk yönetimi kurallarına uygunluğunu gösterdiği bir test dönemidir."
       },
       "q-4": {
-        "question": "Что происходит после успешного прохождения челленджа?",
-        "answer": "После успешного прохождения челленджа трейдер получает доступ к реальному счету с нашим капиталом."
+        "question": "Görevi başarıyla tamamladıktan sonra ne olur?",
+        "answer": "Mücadelenin başarıyla tamamlanmasının ardından, tüccar sermayemizle gerçek bir hesaba erişim elde eder."
       },
       "q-5": {
-        "question": "Какой размер финансирования предоставляется?",
-        "answer": "Funding Stax предоставляет финансирование от 5000$ до 200.000$."
+        "question": "Ne kadar fon sağlanıyor?",
+        "answer": "Funding Stax 5.000 ila 200.000 dolar arasında finansman sağlamaktadır."
       },
       "q-6": {
-        "question": "Как распределяется прибыль?",
-        "answer": "Прибыль распределяется от выбранного Вами челлендаж в пропорциях 85/15 и 90/10. Большую часть прибыли забирает себе трейдер."
+        "question": "Kârlar nasıl dağıtılıyor?",
+        "answer": "Kâr, seçilen chelendage'dan 85/15 ve 90/10 oranlarında dağıtılır. Kârın çoğu tüccar tarafından alınır."
       },
       "q-7": {
-        "question": "Какие рынки доступны для торговли?",
-        "answer": "Форекс, акции, металлы и криптовалюты."
+        "question": "Ticaret için hangi piyasalar mevcut?",
+        "answer": "Forex, hisse senetleri, metaller ve kripto para birimleri."
       },
       "q-8": {
-        "question": "Какие торговые платформы вы используете?",
-        "answer": "Мы используем современную и технологичную платформу Trade Locker, которая доступна на desktop и mobile версии."
+        "question": "Hangi ticaret platformlarını kullanıyorsunuz?",
+        "answer": "Masaüstü ve mobil versiyonları bulunan modern ve teknolojik olarak gelişmiş Trade Locker platformunu kullanıyoruz."
       },
       "q-9": {
-        "question": "Как осуществляется мониторинг торговли?",
-        "answer": "Мы постоянно отслеживаем деятельность трейдеров для обеспечения соблюдения правил риск-менеджмента и условий сотрудничества."
+        "question": "Ticaret nasıl izleniyor?",
+        "answer": "Risk yönetimi kurallarına ve işbirliği şartlarına uyulmasını sağlamak için tüccarların faaliyetlerini sürekli olarak izliyoruz."
       },
       "q-10": {
-        "question": "Что происходит в случае нарушения правил?",
-        "answer": "В случае нарушения правил система автоматически закроет вашу учетную запись в Trade Locker."
+        "question": "Bir kural ihlali durumunda ne olur?",
+        "answer": "Kuralları ihlal ederseniz, sistem Trade Locker hesabınızı otomatik olarak kapatacaktır."
       },
       "q-11": {
-        "question": "Какие требования к трейдерам?",
-        "answer": "Funding Stax в поиске стабильных и уверенных трейдеров, которые умеют правильно работать с РМ и ММ."
+        "question": "Tüccarlar için gereklilikler nelerdir?",
+        "answer": "Funding Stax, RM ve MM ile nasıl düzgün çalışacağını bilen istikrarlı ve kendine güvenen tüccarlar arıyor."
       },
       "q-12": {
-        "question": "Как подать заявку на участие?",
-        "answer": "Зарегистрируйтесь в нашем дашборде и выберите подходящий для Вас челлендж."
+        "question": "Katılmak için nasıl başvurabilirim?",
+        "answer": "Kontrol panelimize kaydolun ve sizin için doğru olan mekik mücadelesini seçin."
       },
       "q-13": {
-        "question": "Есть ли плата за участие в челлендже?",
-        "answer": "Все челленджи платные, после успешного прохождения челленджа мы возвращаем Вам потраченную стоимость за участие, но на второй выплате."
+        "question": "Yarışmaya katılmak için bir ücret ödeniyor mu?",
+        "answer": "Tüm Mücadeleler ücretlidir, bir Mücadeleyi başarıyla tamamladıktan sonra size katılım ücretini iade ederiz, ancak ikinci ödemede."
       },
       "q-14": {
-        "question": "Как осуществляются выплаты трейдерам?",
-        "answer": "Выплаты осуществляются в любой удобный для Вас день. Выплата должна быть больше 1% от всего торгового баланса. Сроки выплат до 48 часов."
+        "question": "Tüccarlara ödemeler nasıl yapılır?",
+        "answer": "Ödemeler sizin için uygun olan herhangi bir günde yapılır. Ödeme, toplam işlem bakiyesinin %1'inden fazla olmalıdır. Ödeme koşulları 48 saate kadar."
       },
       "q-15": {
-        "question": "Есть ли у вас служба поддержки?",
-        "answer": "Да, support@fundingstax.com."
+        "question": "Müşteri hizmetleri ekibiniz var mı?",
+        "answer": "Evet, support@fundingstax.com."
       },
       "q-16": {
-        "question": "Где можно узнать больше о вашей компании?",
-        "answer": "Ссылки укажем позже."
+        "question": "Şirketiniz hakkında daha fazla bilgiyi nerede bulabilirim?",
+        "answer": "Referansları daha sonra vereceğiz."
       }
     }
   },
   "banner": {
-    "title": "Присоединяйтесь к команде опытных трейдеров!",
-    "description": "Не упустите шанс вырасти как трейдер! Присоединяйтесь к нашей команде и начните свой путь к успеху уже сегодня!"
+    "title": "Deneyimli tüccarlardan oluşan ekibe katılın!",
+    "description": "Bir tüccar olarak büyüme şansını kaçırmayın! Ekibimize katılın ve başarıya giden yola bugün başlayın!"
   },
   "footer": {
-    "links": "Useful links",
-    "politics": "Privacy policy"
+    "links": "Faydalı bağlantılar",
+    "politics": "Gizlilik Politikası"
   },
   "navigation": {
-    "Главная": "Home",
-    "Правила торговли": "Trading rules",
-    "Топ трейдеры": "Top traders",
-    "Связаться с нами": "Contact us",
-    "Больше": "More",
+    "Главная": "Ev",
+    "Правила торговли": "Ticaret kuralları",
+    "Топ трейдеры": "En iyi tüccarlar",
+    "Связаться с нами": "Bize ulaşın",
+    "Больше": "Daha fazla",
     "Блог": "Blog",
-    "Affiliate Portal": "Affiliate Portal",
+    "Affiliate Portal": "Ortaklık Portalı",
     "Вопрос-ответ": "FAQ"
   }
 }
