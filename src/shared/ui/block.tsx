@@ -23,7 +23,7 @@ export const Block = ({
 		<section>
 			<div className='container'>
 				<div className='flex flex-col gap-5 mb-12'>
-					<h2 className={cn('text-4xl font-semibold')}>
+					<h2 className={cn('text-3xl sm:text-4xl font-semibold')}>
 						{title}
 						<span className='text-primary'>{accentTitle}</span>
 					</h2>

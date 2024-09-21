@@ -6,7 +6,6 @@ import {
 	NavigationMenu,
 	NavigationMenuContent,
 	NavigationMenuItem,
-	NavigationMenuLink,
 	NavigationMenuList,
 	NavigationMenuTrigger,
 	navigationMenuTriggerStyle,
@@ -17,12 +16,14 @@ interface INavigation {
 	orientation: 'vertical' | 'horizontal';
 	className?: string;
 	classNameItems?: string;
+	onCloseModal?: () => void;
 }
 
 export const Navigation = ({
 	orientation,
 	className,
 	classNameItems,
+	onCloseModal,
 }: INavigation) => {
 	const t = useTranslations('navigation');
 
@@ -32,17 +33,17 @@ export const Navigation = ({
 				{navigationItem.map(({ name, link, subItems, Icon }) => (
 					<NavigationMenuItem key={name}>
 						{!subItems ? (
-							<Link href={link as string} legacyBehavior passHref>
-								<NavigationMenuLink
-									className={cn(
-										navigationMenuTriggerStyle(),
-										classNameItems,
-										'gap-2',
-									)}
-								>
-									{t(name)}
-									{Icon && Icon}
-								</NavigationMenuLink>
+							<Link
+								className={cn(
+									navigationMenuTriggerStyle(),
+									classNameItems,
+									'gap-2',
+								)}
+								href={link as string}
+								onClick={onCloseModal}
+							>
+								{t(name)}
+								{Icon && Icon}
 							</Link>
 						) : (
 							<>
@@ -57,18 +58,14 @@ export const Navigation = ({
 									{subItems.map(({ name: subItemName, link }) => (
 										<Link
 											key={subItemName}
+											className={cn(
+												navigationMenuTriggerStyle(),
+												classNameItems,
+											)}
 											href={link as string}
-											legacyBehavior
-											passHref
+											onClick={onCloseModal}
 										>
-											<NavigationMenuLink
-												className={cn(
-													navigationMenuTriggerStyle(),
-													classNameItems,
-												)}
-											>
-												{t(subItemName)}
-											</NavigationMenuLink>
+											{t(subItemName)}
 										</Link>
 									))}
 								</NavigationMenuContent>
@@ -80,18 +77,14 @@ export const Navigation = ({
 									{subItems.map(({ name: subItemName, link }) => (
 										<Link
 											key={subItemName}
+											className={cn(
+												navigationMenuTriggerStyle(),
+												classNameItems,
+											)}
 											href={link as string}
-											legacyBehavior
-											passHref
+											onClick={onCloseModal}
 										>
-											<NavigationMenuLink
-												className={cn(
-													navigationMenuTriggerStyle(),
-													classNameItems,
-												)}
-											>
-												{t(subItemName)}
-											</NavigationMenuLink>
+											{t(subItemName)}
 										</Link>
 									))}
 								</div>
