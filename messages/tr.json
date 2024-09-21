@@ -1,6 +1,126 @@
 {
+  "dashboard": "Dashboard",
   "home": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "Ваш путь к финансовой свободе": "Your path to financial freedom ",
+    "начинается здесь": "starts here",
+    "Мы в Funding Stax Prop Firm предлагаем вам уникальную возможность торговать на финансовых рынках, используя наш капитал": "We at Funding Stax Prop Firm offer you a unique opportunity to trade the financial markets using our capital",
+    "Почему": "Why ",
+    "выбирают нас?": "choose us?",
+    "Доступ к крупному капиталу": "Access to large capital",
+    "Мы предоставляем трейдерам возможность торговать с большими суммами, что позволяет им реализовывать более масштабные стратегии и увеличивать потенциал прибыли": "We provide the ability to trade with large amounts, which allows them to realize more scalable strategies and increase the potential for profit",
+    "Прозрачная система вознаграждений": "Transparent system of rewards",
+    "У нас  справедливая и прозрачная  структура разделения прибыли, что позволяет трейдерам точно знать, на что они могут рассчитывать": "We have a transparent and fair structure of profit distribution, which allows traders to know precisely what they can expect",
+    "Технологическая платформа": "Technical platform",
+    "Мы предлагаем передовую торговую платформу с высокоскоростным доступом к рынкам и мощными аналитическими инструментами, что позволяет трейдерам эффективно реализовывать свои стратегии": "We offer an efficient trading platform with high-speed access to markets and powerful analytical instruments, which allows traders to effectively realize their strategies",
+    "Финансовая торговля": "Financial trading",
+    "Возможность торговать различными финансовыми инструментами, включая криптовалюты, форекс, индексы, товары и акции": "Ability to trade various financial instruments, including cryptocurrencies, forex, indices, products and stocks",
+    "start-now": {
+      "title": "Instead of risking your money, you undergo an experiment, prove your skills ",
+      "accent": "and get access to significant amounts",
+      "description": "With capital in $100,000, earn $1000 per day more than in $5000. This allows you to concentrate on trading, very accurately and do not worry about financial matters. We provide you with freedom to grow and develop",
+      "accent-button": "Start now"
+    },
+    "plan-block": {
+      "title": "Choose ",
+      "accent": "the best plan",
+      "description": "Participate in our experiments and get up to $200,000 in demo trading accounts for trading, by which you can earn real profit!"
+    },
+    "comments": {
+      "title": "What our",
+      "accent": " clients say",
+      "description": "In the company of Funding Stax we value every review. Our clients are our greatest honor! We strive to provide high level of service and tools for successful trading."
+    }
+  },
+  "trading-rules": {
+    "title": "Trading ",
+    "accent": "rules"
+  },
+  "faq": {
+    "title": "",
+    "accent": "FAQ",
+    "questions": {
+      "q-1": {
+        "question": "What is prop trading?",
+        "answer": "Prop trading is a form of trading in which traders use a company's capital to make trades in the financial markets."
+      },
+      "q-2": {
+        "question": "Как работает ваша prop компания?",
+        "answer": "Мы предоставляем финансирование успешным трейдерам после прохождения ими специального челленджа (испытания)."
+      },
+      "q-3": {
+        "question": "Что такое challenge?",
+        "answer": "Это тестовый период, во время которого трейдер демонстрирует свои навыки и соблюдение правил риск-менеджмента на демо-счете."
+      },
+      "q-4": {
+        "question": "Что происходит после успешного прохождения челленджа?",
+        "answer": "После успешного прохождения челленджа трейдер получает доступ к реальному счету с нашим капиталом."
+      },
+      "q-5": {
+        "question": "Какой размер финансирования предоставляется?",
+        "answer": "Funding Stax предоставляет финансирование от 5000$ до 200.000$."
+      },
+      "q-6": {
+        "question": "Как распределяется прибыль?",
+        "answer": "Прибыль распределяется от выбранного Вами челлендаж в пропорциях 85/15 и 90/10. Большую часть прибыли забирает себе трейдер."
+      },
+      "q-7": {
+        "question": "Какие рынки доступны для торговли?",
+        "answer": "Форекс, акции, металлы и криптовалюты."
+      },
+      "q-8": {
+        "question": "Какие торговые платформы вы используете?",
+        "answer": "Мы используем современную и технологичную платформу Trade Locker, которая доступна на desktop и mobile версии."
+      },
+      "q-9": {
+        "question": "Как осуществляется мониторинг торговли?",
+        "answer": "Мы постоянно отслеживаем деятельность трейдеров для обеспечения соблюдения правил риск-менеджмента и условий сотрудничества."
+      },
+      "q-10": {
+        "question": "Что происходит в случае нарушения правил?",
+        "answer": "В случае нарушения правил система автоматически закроет вашу учетную запись в Trade Locker."
+      },
+      "q-11": {
+        "question": "Какие требования к трейдерам?",
+        "answer": "Funding Stax в поиске стабильных и уверенных трейдеров, которые умеют правильно работать с РМ и ММ."
+      },
+      "q-12": {
+        "question": "Как подать заявку на участие?",
+        "answer": "Зарегистрируйтесь в нашем дашборде и выберите подходящий для Вас челлендж."
+      },
+      "q-13": {
+        "question": "Есть ли плата за участие в челлендже?",
+        "answer": "Все челленджи платные, после успешного прохождения челленджа мы возвращаем Вам потраченную стоимость за участие, но на второй выплате."
+      },
+      "q-14": {
+        "question": "Как осуществляются выплаты трейдерам?",
+        "answer": "Выплаты осуществляются в любой удобный для Вас день. Выплата должна быть больше 1% от всего торгового баланса. Сроки выплат до 48 часов."
+      },
+      "q-15": {
+        "question": "Есть ли у вас служба поддержки?",
+        "answer": "Да, support@fundingstax.com."
+      },
+      "q-16": {
+        "question": "Где можно узнать больше о вашей компании?",
+        "answer": "Ссылки укажем позже."
+      }
+    }
+  },
+  "banner": {
+    "title": "Присоединяйтесь к команде опытных трейдеров!",
+    "description": "Не упустите шанс вырасти как трейдер! Присоединяйтесь к нашей команде и начните свой путь к успеху уже сегодня!"
+  },
+  "footer": {
+    "links": "Useful links",
+    "politics": "Privacy policy"
+  },
+  "navigation": {
+    "Главная": "Home",
+    "Правила торговли": "Trading rules",
+    "Топ трейдеры": "Top traders",
+    "Связаться с нами": "Contact us",
+    "Больше": "More",
+    "Блог": "Blog",
+    "Affiliate Portal": "Affiliate Portal",
+    "Вопрос-ответ": "FAQ"
   }
 }
